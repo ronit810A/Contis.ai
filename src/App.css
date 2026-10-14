@@ -1,41 +1,69 @@
-#root{
-  width: auto;
-  --black:#000;
-  --white:#fff;
-  --gray:#707070;
-  --red:#fb5151;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --colorPrimary: #ff8565;
+    --colorSecondary: #111013;
+    --colorWhite: #fff;
+    --paraColor: #5c728e;
+    --paraFont: "Inter", sans-serif;
+    --headingFont: "DM Sans", sans-serif;
+    --boxShadow: 0px 4px 12px 0px rgba(17, 16, 19, .1);
+    --gradiantBg: linear-gradient(45deg, #cdfff1, rgba(203, 245, 246, .73) 28.13%, hsla(84, 77%, 93%, .8) 79.75%, #f8ffda);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: var(--colorSecondary);
+    font-family: var(--headingFont);
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
 
 header.header {
     background-color: var(--white);
     border-bottom: 1px solid #d8d7d7;
 }
+
 .header-container.row {
     align-items: center;
     padding: 15px;
     text-align: left;
 }
+
 .header-logo {
     width: 100%;
     overflow: hidden;
 }
+
 .header-logo img {
     width: 125px;
 }
+
 ul.nav {
     justify-content: center;
     gap: 15px;
 }
+
 ul.nav a {
     text-decoration: none;
     color: var(--gray);
     font-size: 17px;
     padding: 10px;
 }
+
 ul.nav a:hover {
     color: var(--black);
 }
+
 .header-btn {
     text-align: right;
     gap: 14px;
@@ -43,6 +71,7 @@ ul.nav a:hover {
     justify-content: right;
     align-items: center;
 }
+
 button.header-btn-a {
     background: none;
     color: var(--black);
@@ -52,10 +81,12 @@ button.header-btn-a {
     border-radius: 5px;
     cursor: pointer;
 }
+
 button.header-btn-a:hover {
     background-color: black;
     color: var(--white);
 }
+
 button.header-btn-b {
     background-color: black;
     color: var(--white);
@@ -65,6 +96,7 @@ button.header-btn-b {
     border-radius: 5px;
     cursor: pointer;
 }
-button.header-btn-b:hover{
+
+button.header-btn-b:hover {
     background-color: var(--red);
 }
