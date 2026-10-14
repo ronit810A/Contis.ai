@@ -5,6 +5,10 @@ import service03 from "../assets/images/service-03.png";
 import service04 from "../assets/images/service-04.png";
 import service05 from "../assets/images/service-05.png";
 import serviceSide01 from "../assets/images/service-side-01.png";
+import work01 from "../assets/images/work-01.jpg";
+import work02 from "../assets/images/work-02.jpg";
+
+
 
 export {
   service01,
@@ -12,5 +16,7 @@ export {
   service03,
   service04,
   service05,
-  serviceSide01
+  serviceSide01,
+  work01,
+  work02
 };
