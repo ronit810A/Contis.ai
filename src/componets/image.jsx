@@ -7,6 +7,9 @@ import service05 from "../assets/images/service-05.png";
 import serviceSide01 from "../assets/images/service-side-01.png";
 import work01 from "../assets/images/work-01.jpg";
 import work02 from "../assets/images/work-02.jpg";
+import content01 from "../assets/images/content-01.jpg";
+import content02 from "../assets/images/content-02.jpg";
+import content03 from "../assets/images/content-03.jpg";
 
 
 
@@ -18,5 +21,8 @@ export {
   service05,
   serviceSide01,
   work01,
-  work02
+  work02,
+  content01,
+  content02,
+  content03
 };

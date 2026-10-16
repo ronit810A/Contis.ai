@@ -525,6 +525,7 @@ section.work-section {
     align-items: center;
     gap: 10px;
 }
+
 button.work-step-btn svg {
     font-size: 21px;
 }
@@ -558,4 +559,112 @@ button.work-step-btn svg {
     height: 220px;
     float: left;
     width: 25%;
+}
+
+
+
+
+/* =====================
+     content-section
+  ======================= */
+
+
+.content-section {
+    padding: 100px 0;
+    border-radius: 40px 40px 0 0;
+    background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
+}
+
+.content-heading h6, .content-heading h6 span {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorPrimary);
+    font-family: var(--headingFont);
+}
+.content-heading h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--colorSecondary);
+    margin-bottom: 43px;
+}
+.content-top {
+    background: var(--colorWhite);
+    padding: 70px 0;
+    margin-bottom: 25px;
+    border-radius: 16px;
+}
+
+.content-top-text h4 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    transition: all .3s linear;
+}
+.content-top-text h4:hover {
+    color: var(--colorPrimary);
+}
+.content-top-text ul {
+    margin: 30px 0;
+}
+.content-top-text ul li {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--paraFont);
+    color: var(--colorSecondary);
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.content-top-text ul li:before {
+    content: "\2713";
+    font-size: 20px;
+    color: var(--colorPrimary);
+    margin-right: 10px;
+}
+.content-top-text button {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--paraColor);
+    padding: 13px 20px;
+    background: var(--colorSecondary);
+    color: var(--colorWhite);
+    border-radius: 6px;
+    transition: all .3s linear;
+}
+.content-top-text button:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.content-bottom-box {
+    padding: 48px;
+    background: var(--colorWhite);
+    border-radius: 16px;
+}
+.content-bottom-text h4 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    transition: all .3s linear;
+}
+.content-bottom-text button {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--paraColor);
+    padding: 13px 20px;
+    border-radius: 6px;
+    transition: all .3s linear;
+    background: transparent !important;
+    border: 1px solid var(--paraColor);
+    color: var(--colorSecondary);
+    margin-top: 35px;
+}
+.content-bottom-text button:hover {
+    background: var(--colorPrimary) !important;
+    color: var(--colorWhite);
+    border-color: var(--colorPrimary);
 }
