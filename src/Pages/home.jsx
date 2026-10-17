@@ -1,22 +1,23 @@
-import HeroSection from "../componets/HomeDataPage/hero-section"
-import ServiceSection from "../componets/HomeDataPage/service-section"
-import WorkSection from "../componets/HomeDataPage/work-section"
-import ContactSection from "../componets/HomeDataPage/content-section"
 
+import HeroSection from "../componets/HomeDataPage/hero-section";
+import ServiceSection from "../componets/HomeDataPage/service-section";
+import WorkSection from "../componets/HomeDataPage/work-section";
+import ContactSection from "../componets/HomeDataPage/content-section";
+import TestimonialSection from "../componets/HomeDataPage/Testimonial-section";
 
-import "../css/Home.css"
+import "../css/Home.css";
 
-
-function home() {
+function Home() {
     return (
         <>
             <HeroSection />
-            <ServiceSection/>
-            <WorkSection/>
-            <ContactSection/>
+            <ServiceSection />
+            <WorkSection />
+            <ContactSection />
+            <TestimonialSection />
         </>
     );
-
 }
 
-export default home;
+export default Home;
+

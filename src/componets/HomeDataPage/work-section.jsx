@@ -108,7 +108,7 @@ function Work() {
                         <div className="col-lg-8 m-auto">
                             <div className="work-counter">
                                 <div className="work-counter-text">
-                                    <h2><span class="counter undefined" data-from="0" data-to="8000000">8,000,000</span>+</h2>
+                                    <h2><span>8,000,000</span>+</h2>
                                     <h4>Professional &amp; Teams Choose Met.Ai</h4>
                                 </div>
                                 <div className="work-counter-img">

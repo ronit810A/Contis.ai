@@ -2,9 +2,6 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 import hero_img from "../../assets/images/banner_img-01.jpg";
 
-
-
-
 function hero() {
     return (
         <section className="hero-section">
