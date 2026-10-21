@@ -11,8 +11,11 @@ import content01 from "../assets/images/content-01.jpg";
 import content02 from "../assets/images/content-02.jpg";
 import content03 from "../assets/images/content-03.jpg";
 import testimonial01 from "../assets/images/testimonial-01.jpg";
-import unlock01 from "../assets/images/unlock-01.png"
-import logo from "../assets/images/Logo_1.png"
+import unlock01 from "../assets/images/unlock-01.png";
+import logo from "../assets/images/Logo_1.png";
+
+
+import about01 from "../assets/images/about-01.jpg";
 
 
 export {
@@ -29,5 +32,6 @@ export {
   content03,
   testimonial01,
   unlock01,
-  logo
+  logo,
+  about01
 };

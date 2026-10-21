@@ -1,8 +1,22 @@
+
+import AboutSection from "../componets/AboutDataPage/about-section"
+import BenefitSection from "../componets/AboutDataPage/benefits-section"
+
+import TestimonialSection from "../componets/HomeDataPage/Testimonial-section";
+import FaqSection from "../componets/HomeDataPage/faq-section"
+import UnlockSection from "../componets/HomeDataPage/unlock-section"
+
+import "../css/About.css"
+
 function About() {
     return (
-        <main className="container py-5">
-            <h1>About</h1>
-        </main>
+        <>
+            <AboutSection />
+            <BenefitSection/>
+            <TestimonialSection />
+            <FaqSection/>
+            <UnlockSection/>
+        </>
     );
 }
 

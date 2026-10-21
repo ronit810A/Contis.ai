@@ -1,5 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import logo from "../assets/images/Logo_1.png"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "../assets/images/Logo_1.png";
+
+import { Link } from "react-router-dom";
 
 
 function Header(){
@@ -15,8 +17,8 @@ function Header(){
                     <div className="col-md-7">
                         <div className=" nav-bar">
                             <ul className='nav'>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Pricing</a></li>
                                 <li><a href="#">Contact</a></li>
