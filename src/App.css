@@ -23,10 +23,33 @@ h6 {
     font-family: var(--headingFont);
 }
 
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 body {
     margin: auto;
     padding: auto;
 }
+
+
+
+/* ==================================================================================
+   ==================================================================================
+                             ------------///header\\\-------------
+    ==================================================================================
+   =================================================================================== */
 
 header.header {
     background-color: var(--white);
@@ -99,4 +122,103 @@ button.header-btn-b {
 
 button.header-btn-b:hover {
     background-color: var(--red);
+}
+
+
+
+
+/* =============================================================================
+==================================================================================
+                         -------------///footer\\\--------------
+==================================================================================
+ ================================================================================== */
+
+.footer-logo {
+    width: 105px;
+    margin-bottom: 40px;
+}
+
+.footer-icon ul li a {
+    font-size: 20px;
+    margin-right: 12px;
+    color: rgba(17, 16, 19, .6);
+    transition: all .3s linear;
+}
+
+.footer-icon ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.footer-box h5,
+.footer-right h5 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--paraFont);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-box ul li a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--paraFont);
+    color: var(--text-body, rgba(17, 16, 19, .8));
+    text-transform: capitalize;
+    transition: all .3s linear;
+    display: block;
+    margin-top: 10px;
+}
+.footer-form {
+    position: relative;
+}
+.footer-form input {
+    width: 100%;
+    padding: 11px 16px;
+    color: var(--paraColor);
+    background: #5c5e8e17;
+    border: none;
+    border-radius: 6px;
+}
+.footer-form button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: var(--headingFont);
+    text-transform: capitalize;
+    color: var(--colorSecondary);
+    transition: all .3s linear;
+}
+.footer-check {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0 0;
+    position: relative;
+}
+.footer-check input {
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 5px!important;
+    margin: 0 10px 0 0;
+    border: 1px solid #dce3ed;
+}
+.footer-check label {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.footer-copyright{
+    padding: 50px 0;
+}
+.footer-copyright p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--colorSecondary);
 }
