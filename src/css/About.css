@@ -232,3 +232,59 @@ body {
     line-height: 24px;
     margin-top: 8px;
 }
+
+/* ======================================
+              ...team-section...
+    =====================================*/
+
+section.team-section {
+    padding-bottom: 95px;
+}
+
+.team-img {
+    height: 394px;
+    position: relative;
+}
+.team-img:after {
+    position: absolute;
+    content: "";
+    background: url(../assets/images/team-02.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 123px;
+    height: 173px;
+    bottom: 0;
+    right: -30px;
+}
+.team-heading h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorPrimary);
+    font-family: var(--headingFont);
+    text-transform: uppercase;
+}
+.team-heading h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--colorSecondary );
+    margin-bottom: 8px;
+}
+.team-heading p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--headingFont);
+    color: var(--colorSecondary);
+    margin-bottom: 30px;
+}
+.team-heading button {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--paraColor);
+    padding: 13px 20px;
+    background: transparent;
+    color: var(--colorSecondary);
+    border-radius: 6px;
+    border: 1px solid var(--paraColor);
+    transition: all .3s linear;
+}

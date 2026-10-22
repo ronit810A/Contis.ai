@@ -1,6 +1,7 @@
 
 import AboutSection from "../componets/AboutDataPage/about-section"
 import BenefitSection from "../componets/AboutDataPage/benefits-section"
+import TeamSection from "../componets/AboutDataPage/team-section"
 
 import TestimonialSection from "../componets/HomeDataPage/Testimonial-section";
 import FaqSection from "../componets/HomeDataPage/faq-section"
@@ -13,6 +14,7 @@ function About() {
         <>
             <AboutSection />
             <BenefitSection/>
+            <TeamSection/>
             <TestimonialSection />
             <FaqSection/>
             <UnlockSection/>

@@ -16,6 +16,7 @@ import logo from "../assets/images/Logo_1.png";
 
 
 import about01 from "../assets/images/about-01.jpg";
+import team01 from "../assets/images/team-01.jpg"
 
 
 export {
@@ -33,5 +34,6 @@ export {
   testimonial01,
   unlock01,
   logo,
-  about01
+  about01,
+  team01
 };
