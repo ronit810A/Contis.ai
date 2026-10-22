@@ -19,9 +19,9 @@ function Header(){
                             <ul className='nav'>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About</Link></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/pricing">Pricing</Link></li>
+                                <li><Link to="/contact">contact</Link></li>
                             </ul>
                         </div>
                     </div>
