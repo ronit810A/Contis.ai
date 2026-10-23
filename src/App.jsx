@@ -9,6 +9,7 @@ import Home from "./Pages/home";
 import About from "./Pages/about";
 import Blog from "./Pages/blog";
 import Pricing from "./Pages/pricing";
+import Contact from "./Pages/contact";  
 
 import "./App.css";
 
@@ -33,6 +34,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/pricing" element={<Pricing />} />
+                <Route path="/contact" element={<Contact/>}/>
             </Routes>
 
             <Footer />

@@ -1,0 +1,33 @@
+
+
+
+
+
+section.contact-section {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-heading h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorPrimary);
+    font-family: var(--headingFont);
+    text-transform: uppercase;
+}
+.contact-heading h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--colorSecondary);
+    margin-bottom: 43px;
+}
+
+
+
+
+
+
+.contact footer{
+    background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
+
+}

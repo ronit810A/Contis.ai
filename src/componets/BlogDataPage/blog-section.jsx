@@ -9,7 +9,7 @@ function blog() {
         <section className="blog-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8 m-auto">
+                    <div className="col-lg-8 mx-auto">
                         <div className="blog-heading">
                             <h6> blog</h6>
                             <h2>Latest blog post</h2>

@@ -690,6 +690,11 @@ button.work-step-btn svg {
   ===================================*/
 
 
+.testimonial-main {
+    background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
+
+}
+
 .testimonial-section {
     background: var(--colorSecondary);
     border-radius: 40px 40px 0 0;
@@ -1014,7 +1019,7 @@ section.pricing-section {
 }
 
 
-.pricing-heading h6{
+.pricing-heading h6 {
     font-size: 15px;
     font-weight: 600;
     color: var(--colorPrimary);
@@ -1034,12 +1039,14 @@ section.pricing-section {
     border-radius: 16px;
     transition: all .3s linear 0s;
 }
+
 .pricing-box h5 {
     font-size: 32px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 3px;
 }
+
 .pricing-box button {
     font-size: 15px;
     font-weight: 600;
@@ -1051,6 +1058,7 @@ section.pricing-section {
     transition: all .3s linear;
     margin: 28px 0 24px;
 }
+
 .pricing-box p span {
     font-size: 20px;
     font-weight: 700;
@@ -1058,11 +1066,13 @@ section.pricing-section {
     color: var(--colorSecondary);
     margin-right: 20px;
 }
+
 .pricing-box ul {
     margin-top: 15px;
     padding-top: 30px;
     border-top: 2px solid #5c728e26;
 }
+
 .pricing-box ul li {
     font-size: 15px;
     font-weight: 500;
@@ -1074,6 +1084,7 @@ section.pricing-section {
     align-items: center;
     gap: 7px;
 }
+
 .pricing-box ul li:before {
     content: "\2713";
     font-size: 20px;
@@ -1088,7 +1099,7 @@ section.pricing-section {
 .pricing-box:hover h5,
 .pricing-box:hover p,
 .pricing-box:hover ul li,
-.pricing-box:hover p span{
+.pricing-box:hover p span {
     color: var(--colorWhite);
 }
 
@@ -1107,13 +1118,11 @@ section.pricing-section {
 
 .faq-section {
     border-radius: 40px 40px 0 0;
-    background: var(
-    --background-brand-2,linear-gradient(102deg,#dbf1c3 -7.72%,#dce7e3 86.48%)
-  );
-  padding: 100px 0 240px;
+    background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
+    padding: 100px 0 240px;
 }
 
-.faq-heading h6{
+.faq-heading h6 {
     font-size: 15px;
     font-weight: 600;
     color: var(--colorPrimary);
@@ -1147,9 +1156,11 @@ section.pricing-section {
     font-weight: 600;
     cursor: pointer;
 }
+
 .faq-question span {
     color: var(--color-primary);
 }
+
 .faq-icon {
     flex: 0 0 auto;
     font-size: 32px;
@@ -1183,10 +1194,12 @@ section.pricing-section {
     margin-bottom: 30px;
     transition: all .3s linear;
 }
+
 .unlock-img {
     height: 140px;
 }
-.unlock-text h6{
+
+.unlock-text h6 {
     font-size: 15px;
     font-weight: 600;
     color: var(--colorPrimary);
@@ -1199,10 +1212,12 @@ section.pricing-section {
     color: var(--colorWhite);
     margin-bottom: 43px;
 }
+
 .unlock-text ul {
     margin-top: 15px;
     flex-wrap: wrap;
 }
+
 .unlock-text ul li {
     font-size: 14px;
     font-weight: 500;
@@ -1214,12 +1229,14 @@ section.pricing-section {
     align-items: center;
     gap: 7px;
 }
+
 .unlock-text ul li:before {
     content: "\2713";
     font-size: 20px;
     color: var(--colorPrimary);
     margin-right: 10px;
 }
+
 .unlock-btn {
     font-size: 15px;
     font-weight: 600;
@@ -1230,7 +1247,8 @@ section.pricing-section {
     border-radius: 6px;
     transition: all .3s linear;
 }
-.unlock-btn:hover{
+
+.unlock-btn:hover {
     background-color: var(--colorPrimary);
     color: var(--colorWhite);
 }
@@ -1241,21 +1259,8 @@ section.pricing-section {
 }
 
 .pricing .testimonial-section {
-    background:var(--colorWhite);
+    background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
 }
-
-.about .testimonial-section {
-    background: var(--colorWhite);
-}
-
-.about .testimonial-panel {
-    background: #f8f6f9;
-}
-.about section.faq-section {
-    background: var(--colorwhite);
-}
-.about footer {
-    background: var(
-    --background-brand-2,linear-gradient(102deg,#dbf1c3 -7.72%,#dce7e3 86.48%)
-  );
+.pricing .testimonial-heading h2 {
+    color: var(--colorSecondary);
 }

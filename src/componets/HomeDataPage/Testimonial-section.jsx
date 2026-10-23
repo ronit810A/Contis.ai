@@ -70,37 +70,39 @@ function Testimonial() {
     };
 
     return (
-        <section className="testimonial-section" aria-label="Client testimonials">
-            <div className="container">
-                <div className="testimonial-heading text-center">
-                    <h6>TESTIMONIAL</h6>
-                    <h2>What our clients say</h2>
-                </div>
-                <div className="testimonial-panel">
-                    <span className="testimonial-sparkle" aria-hidden="true">
-                        ✧
-                    </span>
-                    <div className="testimonial-content">
-                        <SlickSlider {...settings}>
-                            {testimonials.map((testimonial) => (
-                                <article
-                                    className="testimonial-slide"
-                                    key={testimonial.name}
-                                >
-                                    <img
-                                        className="testimonial-photo"
-                                        src={testimonial.image}
-                                        alt={testimonial.name}
-                                    />
-                                    <div className="testimonial-copy">
-                                        <h2>{testimonial.quote}</h2>
-                                        <p>{testimonial.review}</p>
-                                        <h3>{testimonial.name}</h3>
-                                        <span>{testimonial.location}</span>
-                                    </div>
-                                </article>
-                            ))}
-                        </SlickSlider>
+        <section className="testimonial-main">
+            <div className="testimonial-section" aria-label="Client testimonials">
+                <div className="container">
+                    <div className="testimonial-heading text-center">
+                        <h6>TESTIMONIAL</h6>
+                        <h2>What our clients say</h2>
+                    </div>
+                    <div className="testimonial-panel">
+                        <span className="testimonial-sparkle" aria-hidden="true">
+                            ✧
+                        </span>
+                        <div className="testimonial-content">
+                            <SlickSlider {...settings}>
+                                {testimonials.map((testimonial) => (
+                                    <article
+                                        className="testimonial-slide"
+                                        key={testimonial.name}
+                                    >
+                                        <img
+                                            className="testimonial-photo"
+                                            src={testimonial.image}
+                                            alt={testimonial.name}
+                                        />
+                                        <div className="testimonial-copy">
+                                            <h2>{testimonial.quote}</h2>
+                                            <p>{testimonial.review}</p>
+                                            <h3>{testimonial.name}</h3>
+                                            <span>{testimonial.location}</span>
+                                        </div>
+                                    </article>
+                                ))}
+                            </SlickSlider>
+                        </div>
                     </div>
                 </div>
             </div>
