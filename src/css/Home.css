@@ -1234,3 +1234,28 @@ section.pricing-section {
     background-color: var(--colorPrimary);
     color: var(--colorWhite);
 }
+
+
+.pricing .testimonial-panel {
+    background: #f8f6f9;
+}
+
+.pricing .testimonial-section {
+    background:var(--colorWhite);
+}
+
+.about .testimonial-section {
+    background: var(--colorWhite);
+}
+
+.about .testimonial-panel {
+    background: #f8f6f9;
+}
+.about section.faq-section {
+    background: var(--colorwhite);
+}
+.about footer {
+    background: var(
+    --background-brand-2,linear-gradient(102deg,#dbf1c3 -7.72%,#dce7e3 86.48%)
+  );
+}

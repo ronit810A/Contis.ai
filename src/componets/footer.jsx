@@ -3,6 +3,8 @@
 import { logo } from "./image";
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 function Footer() {
     return (
         <footer>
@@ -11,7 +13,7 @@ function Footer() {
                     <div className="col-md-2">
                         <div className="footer-left">
                             <div className="footer-logo">
-                                <img src={logo} alt="" />
+                               <Link to="/"><img src={logo} alt="Home" /></Link>
                             </div>
                             <div className="footer-icon">
                                 <ul className="d-flex flex-wrap">
