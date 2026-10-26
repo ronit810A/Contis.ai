@@ -72,9 +72,14 @@ function Header() {
                         </li>
 
                         {/* Dropdown */}
-<li className="dropdown">
-    <button type="button" className="dropdown-toggle">
-        Pages <span>+</span>
+<li className={`dropdown ${dropdownOpen ? "dropdown-active" : ""}`}>
+    <button
+        type="button"
+        className="dropdown-toggle"
+        onClick={() => setDropdownOpen(!dropdownOpen)}
+    >
+        Pages
+        <span>{dropdownOpen ? "−" : "+"}</span>
     </button>
 
     <ul className="dropdown-menu">
