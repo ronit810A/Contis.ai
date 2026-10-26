@@ -12,7 +12,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function service() {
     return (
-        <section className="service-section">
+        <section className="service-section" data-aos="zoom-in">
             <div className="container">
                 <div className="service-content text-center">
                     <h6>Trusted <span> 120 companies </span> across the world</h6>

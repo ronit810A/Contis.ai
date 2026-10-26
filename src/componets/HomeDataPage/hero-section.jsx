@@ -4,7 +4,7 @@ import hero_img from "../../assets/images/banner_img-01.jpg";
 
 function hero() {
     return (
-        <section className="hero-section">
+        <section className="hero-section" data-aos="fade-up">
             <div className="container">
                 <div className="hero-container">
                     <div className="row">
