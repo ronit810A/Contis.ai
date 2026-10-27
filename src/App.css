@@ -904,14 +904,22 @@ footer {
     }
 
     .header-container .col-md-7 {
-        width: 40%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 19px;
     }
 
     .header-container .col-md-3 {
         display: none;
     }
 
- 
+    ul.navbar-links {
+        justify-content: normal !important;
+        gap: 10px !important;
+    }
+
+
 
 
 
@@ -932,4 +940,40 @@ footer {
 /* Tablet */
 @media (min-width: 481px) and (max-width: 900px) {
     /* Tablet CSS */
+}
+
+
+
+ul.dropdown-menu {
+    text-align: center;
+}
+
+
+
+/* Mobile Menu Full Height */
+.navbar-links {
+    width: 100%;
+    height: 445px;
+    background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Menu options */
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Har menu option */
+.navbar-links ul li {
+    padding: 20px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Menu scrollbar */
+.navbar-links {
+    scrollbar-width: thin;
+    scrollbar-color: #aaa #fff;
 }
