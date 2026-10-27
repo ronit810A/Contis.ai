@@ -30,7 +30,7 @@ function Header() {
         <header className="main-header">
             <div className="navbar-container">
 
-                
+
 
                 {/* Mobile Hamburger Button */}
                 <button
@@ -72,27 +72,31 @@ function Header() {
                         </li>
 
                         {/* Dropdown */}
-<li className={`dropdown ${dropdownOpen ? "dropdown-active" : ""}`}>
-    <button
-        type="button"
-        className="dropdown-toggle"
-        onClick={() => setDropdownOpen(!dropdownOpen)}
-    >
-        Pages
-        <span>{dropdownOpen ? "−" : "+"}</span>
-    </button>
+                        <li className={`dropdown ${dropdownOpen ? "dropdown-active" : ""}`}>
+                            <button
+                                type="button"
+                                className="dropdown-toggle"
+                                onClick={() => {
+                                    if (window.innerWidth <= 900) {
+                                        setDropdownOpen(!dropdownOpen);
+                                    }
+                                }}
+                            >
+                                Pages
+                                <span>{dropdownOpen ? "−" : "+"}</span>
+                            </button>
 
-    <ul className="dropdown-menu">
-        <li><Link to="/pricing">Pricing</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
-        <li><Link to="/blog-details">Blog Details</Link></li>
-        <li><Link to="/use-case">Use Case</Link></li>
-        <li><Link to="/case-details">Case Details</Link></li>
-        <li><Link to="/login">Login</Link></li>
-        <li><Link to="/signup">Signup</Link></li>
-    </ul>
-</li>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/pricing">Pricing</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/blog-details">Blog Details</Link></li>
+                                <li><Link to="/use-case">Use Case</Link></li>
+                                <li><Link to="/case-details">Case Details</Link></li>
+                                <li><Link to="/login">Login</Link></li>
+                                <li><Link to="/signup">Signup</Link></li>
+                            </ul>
+                        </li>
 
 
                         {/* Contact */}
@@ -114,7 +118,7 @@ function Header() {
                     </ul>
                 </nav>
 
-                
+
 
             </div>
         </header>

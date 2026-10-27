@@ -216,6 +216,10 @@ section.service-section {
     color: var(--colorPrimary);
     font-family: var(--headingFont);
 }
+.service-main-content h6 span {
+    color: var(--colorPrimary);
+}
+
 
 .service-main-content h2 {
     font-size: 64px;
@@ -1023,9 +1027,9 @@ section.pricing-section {
     font-size: 15px;
     font-weight: 600;
     color: var(--colorPrimary);
+    text-transform: uppercase;
     font-family: var(--headingFont);
 }
-
 .pricing-heading h2 {
     font-size: 64px;
     font-weight: 700;
@@ -1261,6 +1265,314 @@ section.pricing-section {
 .pricing .testimonial-section {
     background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
 }
+
 .pricing .testimonial-heading h2 {
     color: var(--colorSecondary);
+}
+
+
+
+
+/* ===============================================================================================
+==================================================================================================
+                                \\\...responsive...///
+==================================================================================================
+================================================================================================== */
+
+
+
+/* Mobile */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .hero-section {
+        padding: 100px 10px 10px 10px;
+    }
+
+    .hero-section:after {
+    width: 302px;
+    height: 249px;
+    top: 216px;
+    left: 11px;
+}
+    .hero-content h1 {
+    font-size: 44px;
+}
+.hero-content p {
+    font-size: 16px;
+}
+.hero-content::before{
+    display: none;
+}
+.hero-content::after{
+    display: none;
+}
+.service-content h6 ,
+.service-content h6 span
+{
+    font-size: 16px;
+}
+.service-contant-box-img {
+    width: 200px;
+    margin: 0 auto;
+}
+   .service-main-content {
+    padding: 40px 1px 1px;
+    margin: 0 20px;
+}
+.service-main-content h2 {
+    font-size: 28px;
+}
+.work-heading h2 {
+    font-size: 28px;
+}
+.work-img {
+    width: 78%;
+    height: 252px;
+    margin-bottom: 45px;
+}
+.work-img::after {
+    width: 248px;
+    height: 180px;
+    right: -58px;
+    top: 35px;
+}
+.work-step-title {
+    font-size: 18px;
+}
+.work-step-details p {
+    font-size: 16px;
+}
+.work-counter-text {
+    width: 100%;
+}
+.work-counter-text h2, .work-counter-text h2 span {
+    font-size: 44px;
+}
+.work-counter-img {
+    display: none;
+}
+.work-counter-text h4 {
+    font-size: 22px;
+}
+.content-heading h2 {
+    font-size: 28px;
+}
+.content-top {
+    padding: 20px 0;
+}.content-top-img {
+    padding: 0 20px;
+    height: auto;
+    width: auto;
+}
+.content-top-text {
+    padding: 25px 20px 0;
+}
+.content-top-text h4 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.content-top-text ul li {
+    gap: 0;
+}
+.content-bottom-box {
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.content-bottom-text h4 {
+    font-size: 26px;
+}
+.testimonial-section {
+    padding: 50px 10px 0;
+}
+.testimonial-main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .testimonial-section {
+        padding: 45px 15px 25px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .testimonial-heading {
+        margin: 0 auto 25px;
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .testimonial-heading h6 {
+        margin-bottom: 10px;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .testimonial-heading h2 {
+        margin-bottom: 12px;
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .testimonial-heading p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .testimonial-panel {
+        width: 100%;
+        min-height: auto;
+        border-radius: 15px;
+    }
+
+    .testimonial-sparkle {
+        top: 5px;
+        left: -8px;
+        font-size: 45px;
+    }
+
+    .testimonial-content {
+        height: auto;
+        padding: 0;
+    }
+
+    .testimonial-content .slick-list,
+    .testimonial-content .slick-track,
+    .testimonial-content .slick-slide,
+    .testimonial-content .slick-slide > div {
+        height: auto;
+    }
+
+    .testimonial-slide {
+        display: flex !important;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+
+        min-height: auto;
+        padding: 30px 20px 95px;
+    }
+
+    .testimonial-photo {
+        display: block;
+        width: 100% !important;
+        height: 280px !important;
+        border-radius: 18px;
+        object-fit: cover !important;
+        object-position: center;
+    }
+
+    .testimonial-copy {
+        width: 100%;
+        min-height: auto;
+        padding: 5px 0 15px;
+        border-right: 0;
+    }
+
+    .testimonial-copy h2 {
+        margin: 0 0 15px;
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .testimonial-copy p {
+        margin: 0 0 18px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .testimonial-copy h3 {
+        margin-bottom: 5px;
+        font-size: 19px;
+    }
+
+    .testimonial-copy > span {
+        font-size: 14px;
+    }
+
+    .testimonial-content .testimonial-arrow {
+        right: 20px;
+        bottom: 20px;
+
+        width: 42px;
+        height: 42px;
+    }
+
+    .testimonial-content .testimonial-arrow span {
+        font-size: 22px;
+    }
+
+    .testimonial-content .testimonial-prev {
+        right: 72px;
+        left: auto;
+    }
+
+    .testimonial-content .testimonial-next {
+        right: 20px;
+    }
+.pricing-heading h2 {
+    font-size: 28px;
+}
+.pricing-box h5 {
+    font-size: 24px;
+}
+.pricing-box {
+    margin-bottom: 20px;
+}
+.faq-heading h2 {
+    font-size: 28px;
+}
+.faq-question {
+    font-size: 18px;
+}
+
+.unlock-container {
+    padding: 60px 20px;
+}
+.unlock-img {
+    height: 140px;
+    width: 165px;
+    margin-bottom: 35px;
+}
+.unlock-text h2 {
+    font-size: 28px;
+}
+button.unlock-btn {
+    width: 100%;
+    margin-top: 20px;
+}
+footer .col-md-2 {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 900px) {
+    /* Tablet CSS */
 }

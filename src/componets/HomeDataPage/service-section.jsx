@@ -52,86 +52,87 @@ function service() {
                             <h6><span>Contis.ai</span> HELP YOU TO CREATE CONTENT FAST</h6>
                             <h2>Experience the full power of an AI content generator</h2>
                         </div>
-                        <div className="row">
-                            <div className="col-md-9">
-                                <div className="row">
-                                    <div className="col-sm-4">
-                                        <div className="service-box">
-                                            <span><MdEdit /></span>
-                                            <a href="#">Article generation</a>
-                                            <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                            <ul>
-                                                <li>Blog Article Writer</li>
-                                                <li>Blog Ideas, Intros</li>
-                                            </ul>
-                                        </div>
+
+                    </div>
+                    <div className="row">
+                        <div className="col-md-9">
+                            <div className="row">
+                                <div className="col-sm-4">
+                                    <div className="service-box">
+                                        <span><MdEdit /></span>
+                                        <a href="#">Article generation</a>
+                                        <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                        <ul>
+                                            <li>Blog Article Writer</li>
+                                            <li>Blog Ideas, Intros</li>
+                                        </ul>
                                     </div>
-                                    <div className="col-sm-4">
-                                        <div className="service-box">
-                                            <span><MdEdit /></span>
-                                            <a href="#">Article generation</a>
-                                            <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                            <ul>
-                                                <li>Blog Article Writer</li>
-                                                <li>Blog Ideas, Intros</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="service-box">
+                                        <span><MdEdit /></span>
+                                        <a href="#">Article generation</a>
+                                        <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                        <ul>
+                                            <li>Blog Article Writer</li>
+                                            <li>Blog Ideas, Intros</li>
+                                        </ul>
                                     </div>
-                                    <div className="col-sm-4">
-                                        <div className="service-box">
-                                            <span><MdEdit /></span>
-                                            <a href="#">Article generation</a>
-                                            <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                            <ul>
-                                                <li>Blog Article Writer</li>
-                                                <li>Blog Ideas, Intros</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="service-box">
+                                        <span><MdEdit /></span>
+                                        <a href="#">Article generation</a>
+                                        <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                        <ul>
+                                            <li>Blog Article Writer</li>
+                                            <li>Blog Ideas, Intros</li>
+                                        </ul>
                                     </div>
-                                    <div className="col-sm-4">
-                                        <div className="service-box">
-                                            <span><MdEdit /></span>
-                                            <a href="#">Article generation</a>
-                                            <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                            <ul>
-                                                <li>Blog Article Writer</li>
-                                                <li>Blog Ideas, Intros</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="service-box">
+                                        <span><MdEdit /></span>
+                                        <a href="#">Article generation</a>
+                                        <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                        <ul>
+                                            <li>Blog Article Writer</li>
+                                            <li>Blog Ideas, Intros</li>
+                                        </ul>
                                     </div>
-                                    <div className="col-sm-4">
-                                        <div className="service-box">
-                                            <span><MdEdit /></span>
-                                            <a href="#">Article generation</a>
-                                            <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                            <ul>
-                                                <li>Blog Article Writer</li>
-                                                <li>Blog Ideas, Intros</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="service-box">
+                                        <span><MdEdit /></span>
+                                        <a href="#">Article generation</a>
+                                        <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                        <ul>
+                                            <li>Blog Article Writer</li>
+                                            <li>Blog Ideas, Intros</li>
+                                        </ul>
                                     </div>
-                                    <div className="col-sm-4">
-                                        <div className="service-box">
-                                            <span><MdEdit /></span>
-                                            <a href="#">Article generation</a>
-                                            <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                            <ul>
-                                                <li>Blog Article Writer</li>
-                                                <li>Blog Ideas, Intros</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div className="col-sm-4">
+                                    <div className="service-box">
+                                        <span><MdEdit /></span>
+                                        <a href="#">Article generation</a>
+                                        <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                        <ul>
+                                            <li>Blog Article Writer</li>
+                                            <li>Blog Ideas, Intros</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3">
-                                <div className="service-right-box">
-                                    <div className="service-right-img">
-                                        <img src={serviceSide01} alt="" />
-                                    </div>
-                                    <a href="#">Pick a plan on Met.Ai &amp; fall in love!</a>
-                                    <p>Write unique &amp; plagiarism- free content for blogs</p>
-                                    <button>Sign up for free  <FaArrowRightLong /></button>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="service-right-box">
+                                <div className="service-right-img">
+                                    <img src={serviceSide01} alt="" />
                                 </div>
+                                <a href="#">Pick a plan on Met.Ai &amp; fall in love!</a>
+                                <p>Write unique &amp; plagiarism- free content for blogs</p>
+                                <button>Sign up for free  <FaArrowRightLong /></button>
                             </div>
                         </div>
                     </div>
