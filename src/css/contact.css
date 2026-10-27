@@ -238,3 +238,62 @@ section.contact-form-section {
     background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
 
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================================================================
+======================================================================================================
+                                     ///...Responsive...\\\
+=======================================================================================================
+==================================================================================================== */
+
+
+@media (max-width:420px) {
+    section.contact-section {
+        padding-top: 40px;
+    }
+
+    section.contact-us-section {
+        padding-bottom: 40px;
+    }
+
+    section.contact-form-section {
+        padding: 40px 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 28px;
+    }
+
+    .contact-us-box {
+        margin-bottom: 20px;
+    }
+
+    .contact-form-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form-intro h2 {
+        font-size: 28px;
+    }
+
+    .contact-form-intro p {
+        font-size: 16px;
+    }
+
+    .contact-form-fields {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

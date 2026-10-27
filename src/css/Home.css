@@ -216,6 +216,7 @@ section.service-section {
     color: var(--colorPrimary);
     font-family: var(--headingFont);
 }
+
 .service-main-content h6 span {
     color: var(--colorPrimary);
 }
@@ -1030,6 +1031,7 @@ section.pricing-section {
     text-transform: uppercase;
     font-family: var(--headingFont);
 }
+
 .pricing-heading h2 {
     font-size: 64px;
     font-weight: 700;
@@ -1288,106 +1290,146 @@ section.pricing-section {
     }
 
     .hero-section {
-        padding: 100px 10px 10px 10px;
+        padding: 50px 10px 10px 10px;
+    }
+
+    section.work-section {
+        padding: 50px 0 50px;
+    }
+
+    .content-section {
+        padding: 30px 0;
+    }
+
+    section.pricing-section {
+        padding: 40px 0 20px;
     }
 
     .hero-section:after {
-    width: 302px;
-    height: 249px;
-    top: 216px;
-    left: 11px;
-}
+        width: 302px;
+        height: 249px;
+        top: 216px;
+        left: 11px;
+    }
+
     .hero-content h1 {
-    font-size: 44px;
-}
-.hero-content p {
-    font-size: 16px;
-}
-.hero-content::before{
-    display: none;
-}
-.hero-content::after{
-    display: none;
-}
-.service-content h6 ,
-.service-content h6 span
-{
-    font-size: 16px;
-}
-.service-contant-box-img {
-    width: 200px;
-    margin: 0 auto;
-}
-   .service-main-content {
-    padding: 40px 1px 1px;
-    margin: 0 20px;
-}
-.service-main-content h2 {
-    font-size: 28px;
-}
-.work-heading h2 {
-    font-size: 28px;
-}
-.work-img {
-    width: 78%;
-    height: 252px;
-    margin-bottom: 45px;
-}
-.work-img::after {
-    width: 248px;
-    height: 180px;
-    right: -58px;
-    top: 35px;
-}
-.work-step-title {
-    font-size: 18px;
-}
-.work-step-details p {
-    font-size: 16px;
-}
-.work-counter-text {
-    width: 100%;
-}
-.work-counter-text h2, .work-counter-text h2 span {
-    font-size: 44px;
-}
-.work-counter-img {
-    display: none;
-}
-.work-counter-text h4 {
-    font-size: 22px;
-}
-.content-heading h2 {
-    font-size: 28px;
-}
-.content-top {
-    padding: 20px 0;
-}.content-top-img {
-    padding: 0 20px;
-    height: auto;
-    width: auto;
-}
-.content-top-text {
-    padding: 25px 20px 0;
-}
-.content-top-text h4 {
-    font-size: 26px;
-    line-height: 30px;
-}
-.content-top-text ul li {
-    gap: 0;
-}
-.content-bottom-box {
-    padding: 20px;
-    margin-bottom: 25px;
-}
-.content-bottom-text h4 {
-    font-size: 26px;
-}
-.testimonial-section {
-    padding: 50px 10px 0;
-}
-.testimonial-main {
+        font-size: 44px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-content::before {
+        display: none;
+    }
+
+    .hero-content::after {
+        display: none;
+    }
+
+    .service-content h6,
+    .service-content h6 span {
+        font-size: 16px;
+    }
+
+    .service-contant-box-img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .service-main-content {
+        padding: 40px 1px 1px;
+        margin: 0 20px;
+    }
+
+    .service-main-content h2 {
+        font-size: 28px;
+    }
+
+    .work-heading h2 {
+        font-size: 28px;
+    }
+
+    .work-img {
+        width: 78%;
+        height: 252px;
+        margin-bottom: 45px;
+    }
+
+    .work-img::after {
+        width: 248px;
+        height: 180px;
+        right: -58px;
+        top: 35px;
+    }
+
+    .work-step-title {
+        font-size: 18px;
+    }
+
+    .work-step-details p {
+        font-size: 16px;
+    }
+
+    .work-counter-text {
+        width: 100%;
+    }
+
+    .work-counter-text h2,
+    .work-counter-text h2 span {
+        font-size: 44px;
+    }
+
+    .work-counter-img {
+        display: none;
+    }
+
+    .work-counter-text h4 {
+        font-size: 22px;
+    }
+
+    .content-heading h2 {
+        font-size: 28px;
+    }
+
+    .content-top {
+        padding: 20px 0;
+    }
+
+    .content-top-img {
+        padding: 0 20px;
+        height: auto;
+        width: auto;
+    }
+
+    .content-top-text {
+        padding: 25px 20px 0;
+    }
+
+    .content-top-text h4 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .content-top-text ul li {
+        gap: 0;
+    }
+
+    .content-bottom-box {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    .content-bottom-text h4 {
+        font-size: 26px;
+    }
+
+    .testimonial-section {
+        padding: 50px 10px 0;
+    }
+
+    .testimonial-main {
         width: 100%;
         overflow: hidden;
     }
@@ -1440,7 +1482,7 @@ section.pricing-section {
     .testimonial-content .slick-list,
     .testimonial-content .slick-track,
     .testimonial-content .slick-slide,
-    .testimonial-content .slick-slide > div {
+    .testimonial-content .slick-slide>div {
         height: auto;
     }
 
@@ -1487,7 +1529,7 @@ section.pricing-section {
         font-size: 19px;
     }
 
-    .testimonial-copy > span {
+    .testimonial-copy>span {
         font-size: 14px;
     }
 
@@ -1511,48 +1553,59 @@ section.pricing-section {
     .testimonial-content .testimonial-next {
         right: 20px;
     }
-.pricing-heading h2 {
-    font-size: 28px;
-}
-.pricing-box h5 {
-    font-size: 24px;
-}
-.pricing-box {
-    margin-bottom: 20px;
-}
-.faq-heading h2 {
-    font-size: 28px;
-}
-.faq-question {
-    font-size: 18px;
-}
 
-.unlock-container {
-    padding: 60px 20px;
-}
-.unlock-img {
-    height: 140px;
-    width: 165px;
-    margin-bottom: 35px;
-}
-.unlock-text h2 {
-    font-size: 28px;
-}
-button.unlock-btn {
-    width: 100%;
-    margin-top: 20px;
-}
-footer .col-md-2 {
-    width: 45%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
+    .pricing-heading h2 {
+        font-size: 28px;
+    }
+
+    .pricing-box h5 {
+        font-size: 24px;
+    }
+
+    .pricing-box {
+        margin-bottom: 20px;
+    }
+
+    .faq-heading h2 {
+        font-size: 28px;
+    }
+
+    .faq-question {
+        font-size: 18px;
+    }
+
+    .unlock-container {
+        padding: 60px 20px;
+    }
+
+    .unlock-img {
+        height: 140px;
+        width: 165px;
+        margin-bottom: 35px;
+    }
+
+    .unlock-text h2 {
+        font-size: 28px;
+    }
+
+    button.unlock-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer .col-md-2 {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
 
 
 
 
 
-
+    .pricing .faq-section {
+        padding-bottom: 30px;
+    }
 
 
 

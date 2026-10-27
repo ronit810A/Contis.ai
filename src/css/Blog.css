@@ -15,9 +15,11 @@ a,
 a:hover {
     text-decoration: none;
 }
-a{
+
+a {
     cursor: pointer;
 }
+
 button {
     border: none;
     outline: none;
@@ -63,7 +65,8 @@ body {
 }
 
 
-.blog-section, .blog footer {
+.blog-section,
+.blog footer {
     background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
     padding-top: 100px;
 }
@@ -211,12 +214,15 @@ body {
 .blog-team-box {
     margin-bottom: 40px;
 }
-.blog-team-img{
+
+.blog-team-img {
     overflow: hidden;
 }
+
 .blog-team-img img {
     transition: all .3s linear;
 }
+
 .blog-team-box:hover img {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
@@ -261,6 +267,7 @@ body {
     color: var(--colorSecondary);
     transition: all .3s linear;
 }
+
 .blog-team-heading:hover {
     color: var(--colorPrimary);
 }
@@ -284,7 +291,58 @@ body {
 
 
 
-.blog .unlock-section{
+.blog .unlock-section {
     background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
     border-radius: 40px 40px 0 0;
+}
+
+
+
+
+
+/* ===================================================================================================
+======================================================================================================
+                                     ///...Responsive...\\\
+=======================================================================================================
+==================================================================================================== */
+
+
+@media (max-width:480px) {
+
+    .blog-section,
+    .blog footer {
+        padding-top: 50px;
+    }
+
+    .blog-heading h2 {
+        font-size: 28px;
+    }
+
+    .blog-team-categories p {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .blog-dropdown-list {
+        width: 100%;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .blog-team-search input {
+        width: 100%;
+    }
+
+    .blog-team-search {
+        padding: 0 20px;
+    }
+
+    .blog-team-search .blog-search-icon {
+        top: 6px;
+        right: 25px;
+    }
+
+    .blog-dropdown-item {
+        width: 100% !important;
+    }
 }

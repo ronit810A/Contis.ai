@@ -181,27 +181,32 @@ body {
 
 
 .benefits-box {
-    background:#f8f6f9;
+    background: #f8f6f9;
     padding: 45px 25px;
     border-radius: 10px;
     transition: all .3s linear;
     border: 1px solid #f8f6f9;
     margin-bottom: 20px;
 }
-.benefits-box:hover{
+
+.benefits-box:hover {
     background: transparent;
     border: 1px solid var(--colorPrimary);
     border-radius: 10px;
 }
-.benefits-box:hover span{
+
+.benefits-box:hover span {
     background: var(--colorPrimary);
 }
-.benefits-box:hover a{
+
+.benefits-box:hover a {
     color: var(--colorPrimary);
 }
-.benefits-box:hover p{
+
+.benefits-box:hover p {
     color: var(--colorSecondary);
 }
+
 .benefits-box span {
     width: 50px;
     height: 50px;
@@ -213,10 +218,12 @@ body {
     margin-bottom: 18px;
     transition: all .3s linear;
 }
+
 .benefits-box-icon {
     color: var(--colorWhite);
     font-size: 24px;
 }
+
 .benefits-box a {
     font-size: 20px;
     font-weight: 700;
@@ -225,6 +232,7 @@ body {
     color: var(--colorSecondary);
     transition: all .3s linear;
 }
+
 .benefits-box p {
     font-size: 16px;
     font-weight: 400;
@@ -245,6 +253,7 @@ section.team-section {
     height: 394px;
     position: relative;
 }
+
 .team-img:after {
     position: absolute;
     content: "";
@@ -257,19 +266,22 @@ section.team-section {
     bottom: 0;
     right: -30px;
 }
-.team-heading h6{
+
+.team-heading h6 {
     font-size: 15px;
     font-weight: 600;
     color: var(--colorPrimary);
     font-family: var(--headingFont);
     text-transform: uppercase;
 }
+
 .team-heading h2 {
     font-size: 64px;
     font-weight: 700;
-    color: var(--colorSecondary );
+    color: var(--colorSecondary);
     margin-bottom: 8px;
 }
+
 .team-heading p {
     font-size: 18px;
     font-weight: 500;
@@ -277,6 +289,7 @@ section.team-section {
     color: var(--colorSecondary);
     margin-bottom: 30px;
 }
+
 .team-heading button {
     font-size: 15px;
     font-weight: 600;
@@ -303,6 +316,10 @@ section.team-section {
     background: #f8f6f9;
 }
 
+.about .testimonial-heading h2 {
+    color: var(--colorSecondary);
+}
+
 .about section.faq-section {
     background: var(--colorwhite);
 }
@@ -310,7 +327,97 @@ section.team-section {
 .about footer {
     background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
 }
-.about .unlock-section{
+
+.about .unlock-section {
     background: var(--background-brand-2, linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%));
     border-radius: 40px 40px 0 0;
+}
+
+
+
+/* ===================================================================================================
+======================================================================================================
+                                     ///...Responsive...\\\
+=======================================================================================================
+==================================================================================================== */
+
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 50px 0 40px;
+    }
+
+    section.team-section {
+        padding-bottom: 20px;
+    }
+
+    .benefits-main {
+        padding: 50px 0 40px;
+    }
+
+    .faq-section {
+        padding: 30px 0 200px;
+    }
+
+    .about-heading h2 {
+        font-size: 28px;
+    }
+
+    .about-img {
+        margin-top: 35px;
+    }
+
+    .about-content h6,
+    .about-content h6 span {
+        font-size: 16px;
+    }
+
+    .about-contant-box-img {
+        width: 200px;
+        margin: auto;
+    }
+
+    .benefits-heading h2 {
+        font-size: 28px;
+    }
+
+    .benefits-heading {
+        margin-bottom: 35px;
+    }
+
+    .team-img:after {
+        right: 0;
+    }
+
+    .team-heading {
+        margin-top: 35px;
+    }
+
+    .team-heading h2 {
+        font-size: 28px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
