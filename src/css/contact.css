@@ -341,7 +341,9 @@ section.contact-form-section {
     display: flex;
     flex-direction: column;
 }
-
+form.contact-message-form {
+    width: 100%;
+}
 
 
 

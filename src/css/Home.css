@@ -1637,22 +1637,27 @@ section.pricing-section {
     }
 
     .hero-content::after {
-        width: 260px;
-        height: 90px;
-        top: 121px;
-        right: -51px;
+        display: none;
     }
 
     .hero-content::before {
         width: 260px;
         height: 90px;
-        top: 124px;
-        left: -80px;
+        top: 189px;
+        left: -155px;
     }
 
     .work-img:after {
         bottom: 41px;
         right: -12px;
+    }
+
+    .work-container .col-lg-5 {
+        width: 100%;
+    }
+
+    .work-container .col-lg-4 {
+        width: 100%;
     }
 
     .service-main-content {
@@ -1787,6 +1792,9 @@ section.pricing-section {
         padding: 100px 0 50px;
     }
 
+    .pricing .pricing-section {
+        padding: 50px 0 75px;
+    }
 
 
 

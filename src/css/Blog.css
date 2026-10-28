@@ -363,6 +363,10 @@ body {
         padding-top: 50px;
     }
 
+    .blog-heading h2 {
+        font-size: 36px;
+    }
+
     .blog-team-categories p {
         width: 100%;
         text-align: center;

@@ -10,6 +10,7 @@ import About from "./Pages/about";
 import Blog from "./Pages/blog";
 import Pricing from "./Pages/pricing";
 import Contact from "./Pages/contact";
+import Features from "./Pages/features"
 
 import "./App.css";
 
@@ -45,6 +46,7 @@ offset: 100
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/pricing" element={<Pricing />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/features" element={<Features />} />
             </Routes>
 
             <Footer />
