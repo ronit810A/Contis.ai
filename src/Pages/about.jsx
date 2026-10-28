@@ -9,15 +9,20 @@ import UnlockSection from "../componets/HomeDataPage/unlock-section"
 
 import "../css/About.css"
 
+import { useEffect } from "react";
+
 function About() {
+    useEffect(() => {
+        document.title = "About | Contis.ai";
+    }, []);
     return (
         <>
             <AboutSection />
-            <BenefitSection/>
-            <TeamSection/>
+            <BenefitSection />
+            <TeamSection />
             <TestimonialSection />
-            <FaqSection/>
-            <UnlockSection/>
+            <FaqSection />
+            <UnlockSection />
         </>
     );
 }

@@ -10,7 +10,12 @@ import UnlockSection from "../componets/HomeDataPage/unlock-section"
 
 import "../css/Home.css";
 
+import { useEffect } from "react";
+
 function Home() {
+    useEffect(() => {
+        document.title = "Home | Contis.ai";
+    }, []);
     return (
         <>
             <HeroSection />
@@ -18,9 +23,9 @@ function Home() {
             <WorkSection />
             <ContactSection />
             <TestimonialSection />
-            <PricingSection/>
-            <FaqSection/>
-            <UnlockSection/>
+            <PricingSection />
+            <FaqSection />
+            <UnlockSection />
         </>
     );
 }
