@@ -1606,7 +1606,7 @@ section.pricing-section {
     .pricing .faq-section {
         padding-bottom: 30px;
     }
-    
+
 
 
 
@@ -1627,6 +1627,168 @@ section.pricing-section {
 
 
 /* Tablet */
-@media (min-width: 481px) and (max-width: 900px) {
-    /* Tablet CSS */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .hero-section:after {
+        left: 34px;
+    }
+
+    .hero-content h1 {
+        font-size: 80px;
+    }
+
+    .hero-content::after {
+        width: 260px;
+        height: 90px;
+        top: 121px;
+        right: -51px;
+    }
+
+    .hero-content::before {
+        width: 260px;
+        height: 90px;
+        top: 124px;
+        left: -80px;
+    }
+
+    .work-img:after {
+        bottom: 41px;
+        right: -12px;
+    }
+
+    .service-main-content {
+        margin: 0 20px;
+        padding: 100px 40px 75px;
+    }
+
+    .service-main-content h2 {
+        font-size: 36px;
+    }
+
+    .service-main-content .col-md-9 {
+        width: 100%;
+    }
+
+    .service-main-content .col-sm-4 {
+        width: 50%;
+    }
+
+    .service-main-content .col-md-3 {
+        width: 100%;
+    }
+
+    .work-heading h2 {
+        font-size: 36px;
+    }
+
+    .work-img {
+        position: relative;
+        height: 360px;
+        width: 86%;
+        margin: auto auto 45px;
+    }
+
+    .work-img:after {
+        width: 350px;
+        height: 250px;
+    }
+
+    .work-steps {
+        padding: 0 54px;
+    }
+
+    .work-step-btn {
+        margin: 30px 54px 0;
+    }
+
+    .work-counter-text h2,
+    .work-counter-text h2 span {
+        font-size: 44px;
+    }
+
+    .work-counter-img {
+        height: 144px;
+    }
+
+    .content-top .col-md-4 {
+        width: 100%;
+    }
+
+    .content-top .col-md-5 {
+        width: 100%;
+    }
+
+    .content-top {
+        padding: 70px 30px;
+    }
+
+    .content-top-text h4 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .content-section {
+        padding: 100px 50px 50px;
+    }
+
+    .content-top-img {
+        height: 433px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .content-bottom .col-md-6 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .pricing-heading h2 {
+        font-size: 36px;
+    }
+
+    .pricing-container .col-md-4 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .faq-heading h2 {
+        font-size: 36px;
+    }
+
+    .faq-question {
+        font-size: 18px;
+    }
+
+    .faq-list {
+        padding: 0 75px;
+    }
+
+    .unlock-container .col-md-2 {
+        display: none;
+    }
+
+    .unlock-container {
+        padding: 20px;
+    }
+
+    .unlock-text h2 {
+        font-size: 36px;
+    }
+
+    .unlock-container .col-md-5 {
+        width: 60%;
+    }
+
+    .unlock-container .col-md-4 {
+        width: 30%;
+    }
+
+    .pricing .faq-section {
+        padding: 100px 0 50px;
+    }
+
+
+
+
+
 }

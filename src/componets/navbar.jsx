@@ -76,11 +76,8 @@ function Header() {
                             <button
                                 type="button"
                                 className="dropdown-toggle"
-                                onClick={() => {
-                                    if (window.innerWidth <= 900) {
-                                        setDropdownOpen(!dropdownOpen);
-                                    }
-                                }}
+                                aria-expanded={dropdownOpen}
+                                onClick={() => setDropdownOpen((open) => !open)}
                             >
                                 Pages
                                 <span>{dropdownOpen ? "−" : "+"}</span>

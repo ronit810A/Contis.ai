@@ -396,25 +396,48 @@ section.team-section {
     .team-heading h2 {
         font-size: 28px;
     }
+}
 
 
 
 
 
+/* tab */
 
 
+@media (min-width:481px) and (max-width:1024px) {
+    .about-section {
+        padding: 38px 0 41px;
+    }
 
+    .about-heading {
+        margin-bottom: 30px;
+    }
 
+    .benefits-main .col-md-5 {
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
 
+    .benefits-main .col-md-6 {
+        width: 100%;
+    }
 
+    .benefits-heading h2 {
+        font-size: 36px;
+    }
 
+    .team-heading {
+        margin-top: 30px;
+    }
 
+    .team-heading h2 {
+        font-size: 36px;
+    }
 
-
-
-
-
-
+    section.team-section {
+        padding-bottom: 0px;
+    }
 
 
 

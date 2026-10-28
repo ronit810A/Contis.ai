@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "../assets/images/Logo_1.png";
 import Navbar from "../componets/navbar";
+import { Link } from "react-router-dom";
 
 function Header(){
     return(
@@ -9,7 +10,7 @@ function Header(){
                 <div className="header-container row ">
                     <div className="col-md-2">
                         <div className="header-logo">
-                            <img src={logo} alt=""/>
+                           <Link to="/"> <img src={logo} alt=""/></Link>
                         </div>
                     </div>
                     <div className="col-md-7">

@@ -297,3 +297,52 @@ section.contact-form-section {
         width: 100%;
     }
 }
+
+
+
+/* tab */
+
+
+@media (min-width:481px) and (max-width:1024px){
+
+
+    section.contact-section {
+    padding-top: 50px;
+}
+.contact-heading h2 {
+    font-size: 36px;
+}
+.contact-us-container .col-md-5 {
+    width: 50%;
+}
+section.contact-us-section {
+    padding-bottom: 50px;
+}
+section.contact-form-section {
+    padding: 50px 0;
+}
+.contact-form-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.contact-form-intro {
+    width: 100%;
+}
+.contact-form-intro h2 {
+    max-width: unset;
+    font-size: 36px;
+}
+.contact-form-intro p {
+    max-width: unset;
+    font-size: 18px;
+}
+.contact-form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+}

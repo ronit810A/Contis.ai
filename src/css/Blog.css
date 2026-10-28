@@ -346,3 +346,41 @@ body {
         width: 100% !important;
     }
 }
+
+
+
+
+
+/* /tab */
+
+
+
+
+@media (min-width:481px) and (max-width:1024px) {
+
+    .blog-section,
+    .blog footer {
+        padding-top: 50px;
+    }
+
+    .blog-team-categories p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-team-categories ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-dropdown-item {
+        width: 30% !important;
+    }
+
+    .blog-team-container .col-md-4 {
+        width: 50%;
+    }
+
+
+
+}
