@@ -11,6 +11,7 @@ import Blog from "./Pages/blog";
 import Pricing from "./Pages/pricing";
 import Contact from "./Pages/contact";
 import Features from "./Pages/features"
+import Use from "./Pages/use"
 
 import "./App.css";
 
@@ -42,11 +43,12 @@ offset: 100
 
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/features" element={<Features />} />
+                <Route path="/pricing" element={<Pricing />} />
+                <Route path="/use" element={<Use/>}/>
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />} />
-                <Route path="/pricing" element={<Pricing />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/features" element={<Features />} />
             </Routes>
 
             <Footer />

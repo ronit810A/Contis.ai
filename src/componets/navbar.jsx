@@ -20,7 +20,7 @@ function Header() {
         { name: "About", path: "/about" },
         { name: "Blog", path: "/blog" },
         { name: "Blog Details", path: "/blog-details" },
-        { name: "Use Case", path: "/use-case" },
+        { name: "Use", path: "/use" },
         { name: "Case Details", path: "/case-details" },
         { name: "Login", path: "/login" },
         { name: "Signup", path: "/signup" },
@@ -68,7 +68,7 @@ function Header() {
 
                         {/* Use Case */}
                         <li>
-                            <Link to="/use-case">Use Case</Link>
+                            <Link to="/use">Use Case</Link>
                         </li>
 
                         {/* Dropdown */}
@@ -88,7 +88,7 @@ function Header() {
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/blog">Blog</Link></li>
                                 <li><Link to="/blog-details">Blog Details</Link></li>
-                                <li><Link to="/use-case">Use Case</Link></li>
+                                <li><Link to="/use">Use Case</Link></li>
                                 <li><Link to="/case-details">Case Details</Link></li>
                                 <li><Link to="/login">Login</Link></li>
                                 <li><Link to="/signup">Signup</Link></li>
