@@ -13,6 +13,8 @@ import Contact from "./Pages/contact";
 import Features from "./Pages/features"
 import Use from "./Pages/use"
 
+import Signup from "./Pages/signup";
+
 import "./App.css";
 
 function App() {
@@ -49,6 +51,7 @@ offset: 100
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/signup" element={<Signup />} />
             </Routes>
 
             <Footer />

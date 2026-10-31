@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --colorPrimary: #ff8565;
+    --colorSecondary: #111013;
+    --colorWhite: #fff;
+    --paraColor: #5c728e;
+    --paraFont: "Inter", sans-serif;
+    --headingFont: "DM Sans", sans-serif;
+    --boxShadow: 0px 4px 12px 0px rgba(17, 16, 19, .1);
+    --gradiantBg: linear-gradient(45deg, #cdfff1, rgba(203, 245, 246, .73) 28.13%, hsla(84, 77%, 93%, .8) 79.75%, #f8ffda);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+body,
+p,
+span {
+    font-family: var(--paraFont);
+    color: var(--paraColor);
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+ol,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: var(--colorSecondary);
+    font-family: var(--headingFont);
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+/* ================
+      banner
+  ================= */
+
+.signup .blog-section {
+    background: var(--colorwhite);
+    padding-top: 60px;
+}
+
+/* =============================
+             signup-form
+   ============================= */
+.signup-card {
+    padding-bottom: 50px;
+}
+
+.signup-box {
+    background: #f8f6f8;
+    margin: 0;
+    padding: 30px 40px;
+    border-radius: 13px;
+}
+
+.signup-field label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #b6b5bc;
+    font-size: 14px;
+}
+
+.signup-field input {
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    background: var(--colorWhite);
+    resize: none;
+}
+
+
+.signup-field input:focus-visible {
+    outline: 2px solid #607c9f;
+    outline-offset: 2px;
+}
+
+.signup-terms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #607c9f;
+    margin-bottom: 10px;
+}
+
+
+.signup-terms a,
+.signup-login a {
+    color: #111013;
+}
+
+.signup-submit,
+.signup-google {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--paraColor);
+    padding: 13px 20px;
+    background: var(--colorSecondary);
+    color: var(--colorWhite);
+    border-radius: 6px;
+    transition: all .3s linear;
+    width: 100%;
+}
+
+.signup-submit {
+    border: 1px solid #111013;
+    background: #111013;
+    color: #fff;
+}
+
+.signup-submit:hover {
+    background:var(--colorPrimary);
+}
+
+.signup-divider {
+    margin: 10px 0 10px;
+    color: #111013;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.signup-google {
+    border: 1px solid #607c9f;
+    background: transparent;
+    color: #111013;
+}
+
+.signup-google svg {
+    color: #607c9f;
+    font-size: 20px;
+}
+
+.signup-login {
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+.signup-login a {
+    text-decoration: none;
+}
+
+.signup-login a:hover,
+.signup-terms a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .signup-card {
+        padding: 32px 22px;
+    }
+
+    .signup-field label {
+        font-size: 16px;
+    }
+
+    .signup-field input {
+        font-size: 18px;
+    }
+
+    .signup-terms,
+    .signup-submit,
+    .signup-google,
+    .signup-login {
+        font-size: 17px;
+    }
+}
