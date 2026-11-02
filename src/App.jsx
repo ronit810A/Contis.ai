@@ -14,6 +14,7 @@ import Features from "./Pages/features"
 import Use from "./Pages/use"
 
 import Signup from "./Pages/signup";
+import Login from "./Pages/login";
 
 import "./App.css";
 
@@ -52,6 +53,7 @@ offset: 100
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/signup" element={<Signup />} />
+                <Route path="/login" element={<Login />} />
             </Routes>
 
             <Footer />

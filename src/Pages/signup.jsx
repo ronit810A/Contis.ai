@@ -4,6 +4,8 @@ import SignupForm from "../componets/SignupDataPage/signup-form";
 
 import { useEffect } from "react";
 
+import "../css/signup.css"
+
 
 
 function Signup() {

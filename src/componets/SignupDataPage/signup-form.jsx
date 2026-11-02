@@ -1,6 +1,5 @@
 import { FaArrowRight, FaGoogle } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import "../../css/signup.css";
 
 function SignupForm() {
     return (

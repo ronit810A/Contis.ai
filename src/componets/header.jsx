@@ -20,10 +20,12 @@ function Header() {
                     </div>
                     <div className="col-md-3">
                         <div className="header-btn">
-                            <button className='header-btn-a'>Log in</button>
-                            <button className='header-btn-b'>
-                                <Link to="/signup">Sign up</Link>
-                            </button>
+                            <Link to="/login">
+                                <button className='header-btn-a'>Log in</button>
+                            </Link>
+                            <Link to="/signup">
+                                <button className='header-btn-b'>Sign up</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

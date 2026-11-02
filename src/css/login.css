@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --colorPrimary: #ff8565;
+    --colorSecondary: #111013;
+    --colorWhite: #fff;
+    --paraColor: #5c728e;
+    --paraFont: "Inter", sans-serif;
+    --headingFont: "DM Sans", sans-serif;
+    --boxShadow: 0px 4px 12px 0px rgba(17, 16, 19, .1);
+    --gradiantBg: linear-gradient(45deg, #cdfff1, rgba(203, 245, 246, .73) 28.13%, hsla(84, 77%, 93%, .8) 79.75%, #f8ffda);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+body,
+p,
+span {
+    font-family: var(--paraFont);
+    color: var(--paraColor);
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+ol,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: var(--colorSecondary);
+    font-family: var(--headingFont);
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+/* ================
+      banner
+  ================= */
+
+.login .blog-section {
+    background: var(--colorwhite);
+    padding-top: 60px;
+}
+
+/* =======================
+        login-form
+   ==================== */
+.login-card {
+    padding-bottom: 50px;
+}
+
+.login-box {
+    padding: 32px 40px;
+    border-radius: 13px;
+    background: #f8f6f8;
+}
+
+.login-field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #b6b5bc;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login-field input {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 16px 20px;
+    border: 0;
+    border-radius: 7px;
+    background: var(--colorWhite);
+    color: var(--colorSecondary);
+    font: inherit;
+}
+
+.login-field input:focus-visible,
+.login-remember input:focus-visible,
+.login-options button:focus-visible,
+.login-submit:focus-visible,
+.login-google:focus-visible {
+    outline: 2px solid #607c9f;
+    outline-offset: 2px;
+}
+
+.login-field input::placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+.login-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 0 30px;
+}
+
+.login-remember {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #607c9f;
+    cursor: pointer;
+}
+
+.login-remember input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    accent-color: #607c9f;
+}
+
+.login-options button {
+    padding: 0;
+    color: var(--colorSecondary);
+    cursor: pointer;
+}
+
+.login-submit,
+.login-google {
+    display: flex;
+    width: 100%;
+    min-height: 62px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 20px;
+    border: 1px solid var(--colorSecondary);
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color .3s linear, color .3s linear;
+    cursor: pointer;
+}
+
+.login-submit {
+    background: var(--colorSecondary);
+    color: var(--colorWhite);
+}
+
+.login-submit:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.login-divider {
+    margin: 20px 0;
+    color: var(--colorSecondary);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.login-google {
+    border-color: #607c9f;
+    background: transparent;
+    color: var(--colorSecondary);
+}
+.login-google:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.login-google svg {
+    color: #607c9f;
+    font-size: 20px;
+}
+
+.login-signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-signup a {
+    color: var(--colorSecondary);
+}
+
+.login-signup a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 32px 22px;
+    }
+
+    .login-field label {
+        font-size: 15px;
+    }
+
+    .login-field input,
+    .login-remember,
+    .login-options button,
+    .login-submit,
+    .login-google,
+    .login-signup {
+        font-size: 16px;
+    }
+}

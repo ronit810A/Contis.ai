@@ -161,6 +161,10 @@ body {
     background: transparent;
     color: #111013;
 }
+.signup-google:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
 
 .signup-google svg {
     color: #607c9f;

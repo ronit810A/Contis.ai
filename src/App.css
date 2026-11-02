@@ -484,14 +484,13 @@ button.header-btn-a:hover {
     background: var(--colorSecondary);
 }
 
+
 button.header-btn-b  {
     color: var(--colorWhite);
     background: var(--colorSecondary);
     border: 1px solid var(--colorSecondary);
 }
-button.header-btn-b a {
-    color: var(--colorWhite);
-}
+
 
 
 button.header-btn-b:hover {
