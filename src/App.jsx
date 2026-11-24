@@ -8,6 +8,7 @@ import Footer from "./componets/footer";
 import Home from "./Pages/home";
 import About from "./Pages/about";
 import Blog from "./Pages/blog";
+import BlogDetails from "./Pages/blog-details";
 import Pricing from "./Pages/pricing";
 import Contact from "./Pages/contact";
 import Features from "./Pages/features"
@@ -51,6 +52,8 @@ offset: 100
                 <Route path="/use" element={<Use/>}/>
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/blog-details" element={<BlogDetails />} />
+                <Route path="/blog_details" element={<BlogDetails />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login />} />
